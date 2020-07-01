@@ -154,3 +154,34 @@ aside > h2{
 .lista p{
   line-height: 30px;
 }
+
+main::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer{
+  background-color: white;
+  border-radius: 5px;
+}
+
+.copi {
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  color: lightgrey;
+  border-bottom: 2px solid lightgrey;
+}
+
+.social{
+  height: 150px;
+}
+
+.fab{
+  width: 33%;
+  color: lightgrey;
+  font-size: 40px;
+  text-align: center;
+  line-height: 150px;
+}
